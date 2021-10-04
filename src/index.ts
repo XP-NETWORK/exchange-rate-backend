@@ -15,17 +15,7 @@ app.use(rateLimit({
 }))
 
 type BatchDataResp = {
-    "ETH": number,
-    "BNB": number,
-    "TRX": number,
-    "HT": number,
-    "FTM": number,
-    "MATIC": number,
-    "ONE": number,
-    "CELO": number,
-    "AVAX": number,
-    "EGLD": number,
-    "XPNET": number
+    [key in SupportedCurrency]: number
 }
 
 app.get("/batch_data", async (_, res: Response<BatchDataResp>) => {
