@@ -7,7 +7,7 @@ if (!process.env.CMC_API_KEY) {
 console.warn('WARN: using permissive cors!!');
 
 export default {
-    port: 3030,
+    port: process.env.PORT!,
     cors: '*',
     cmc_api: 'https://pro-api.coinmarketcap.com/',
     cmc_key: process.env.CMC_API_KEY,

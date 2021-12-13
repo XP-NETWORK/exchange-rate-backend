@@ -20,7 +20,7 @@ type BatchDataResp = {
     [key in SupportedCurrency]: number;
 };
 
-app.get('/batch_data', async (_, res: Response<BatchDataResp>) => {
+app.get('/exchange/batch_data', async (_, res: Response<BatchDataResp>) => {
     const cache = await cmcCachedExchange.getBatchedRate(
         Object.values(SupportedCurrency)
     );
