@@ -486,7 +486,7 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-"crypto-exchange-rate@git+https://github.com/xp-network/exchange-rate#master-dist":
+"crypto-exchange-rate@git+https://github.com/xp-network/exchange-rate#339fbebceda2cc0b698d67e2b0cb0cba8f362aca":
   version "1.0.0"
   resolved "git+https://github.com/xp-network/exchange-rate#339fbebceda2cc0b698d67e2b0cb0cba8f362aca"
   dependencies:
