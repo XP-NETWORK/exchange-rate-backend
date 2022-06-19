@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "crypto-exchange-rate": "git+https://github.com/xp-network/exchange-rate#04867f1773b37f77a1aa3edd7e0562517099c078",
+    "crypto-exchange-rate": "git+https://github.com/XP-NETWORK/exchange-rate#ae839df99ed55c3670b47dbaaa0503425e2d17e8",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-rate-limit": "^5.4.0"
