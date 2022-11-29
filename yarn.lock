@@ -495,9 +495,9 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-"crypto-exchange-rate@git+https://github.com/xp-network/exchange-rate#644adac9e4a60351a9963b61a287e9c8f887217a":
+"crypto-exchange-rate@git+https://github.com/xp-network/exchange-rate#7e1266d8ab36354c50e80141692beb53625aaaef":
   version "1.0.0"
-  resolved "git+https://github.com/xp-network/exchange-rate#644adac9e4a60351a9963b61a287e9c8f887217a"
+  resolved "git+https://github.com/xp-network/exchange-rate#7e1266d8ab36354c50e80141692beb53625aaaef"
   dependencies:
     axios "^0.21.1"
 
