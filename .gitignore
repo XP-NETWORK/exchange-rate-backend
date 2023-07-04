@@ -10,3 +10,4 @@ coverage
 tsconfig.tsbuildinfo
 dist/docs
 .env
+.DS_Store
