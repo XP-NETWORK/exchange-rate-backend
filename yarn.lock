@@ -504,7 +504,7 @@ cross-spawn@^7.0.2:
 
 "crypto-exchange-rate@git+https://github.com/xp-network/exchange-rate#master-dist":
   version "1.0.0"
-  resolved "git+https://github.com/xp-network/exchange-rate#9ee4cf2308d514cc54c52e82b3d3dcce4939ef08"
+  resolved "git+https://github.com/xp-network/exchange-rate#ed8ed0f7759923c312052219af9c1fe2d972988f"
   dependencies:
     axios "^0.21.1"
 
